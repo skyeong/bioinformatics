@@ -28,12 +28,10 @@ def FrequentWords(Text, k):
   
 
 if __name__ == '__main__':
-    # filepath='/Users/skyeong/Downloads/dataset_2_10.txt'
-    filepath='/Users/skyeong/Desktop/Vibrio_cholerae.txt'
-    with open(filepath) as fp:
-        lines = fp.readlines()
-    # print (lines)
-    input_text = lines[0][0:-1]
-    # k = int(lines[1])
-    # FrequentWords('ACGTTGCATGTCGCATGATGCATGAGAGCT',4)    
-    FrequentWords(input_text,5)
+    # filepath='/Users/skyeong/Desktop/Vibrio_cholerae.txt'
+    # with open(filepath) as fp:
+    #     lines = fp.readlines()
+    # # print (lines)
+    # input_text = lines[0][0:-1]  
+    # FrequentWords(input_text,5)
+    FrequentWords('CGCCTAAATAGCCTCGCGGAGCCTTATGTCATACTCGTCCT',3)

@@ -11,10 +11,11 @@ def PatternCount(Text, Pattern):
     return count
 
 if __name__ == '__main__':
-    filepath='/Users/skyeong/Downloads/dataset_2_7.txt'
-    with open(filepath) as fp:
-        lines = fp.readlines()
-    input_text = lines[0][0:-1]
-    test_seq = lines[1][0:-1]
+    # filepath='/Users/skyeong/Downloads/dataset_2_7.txt'
+    # with open(filepath) as fp:
+    #     lines = fp.readlines()
+    # input_text = lines[0][0:-1]
+    # test_seq = lines[1][0:-1]
 
-    print(PatternCount(input_text,test_seq))
+    # print(PatternCount(input_text,test_seq))
+    print(PatternCount('ACTGTACGATGATGTGTGTCAAAG', 'TGT'))

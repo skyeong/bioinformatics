@@ -26,11 +26,12 @@ def ReverseSequences(Text):
 
 
 if __name__ == '__main__':
-    filepath='/Users/skyeong/Downloads/dataset_3_2.txt'
-    with open(filepath) as fp:
-        lines = fp.readlines()
-    print (lines)
-    input_text = lines[0][0:-1]
-    # k = int(lines[1])
-    # FrequentWords('ACGTTGCATGTCGCATGATGCATGAGAGCT',4)    
-    print(ReverseSequences(input_text))
+    # filepath='/Users/skyeong/pythonwork/bioinformatics/data/dataset_3_2.txt'
+    # with open(filepath) as fp:
+    #     lines = fp.readlines()
+    # print (lines)
+    # input_text = lines[0][0:-1]
+     
+    # print(ReverseSequences(input_text))
+    print(ReverseSequences('TTGTGTC'))
+    

@@ -32,10 +32,5 @@ if __name__ == '__main__':
     # input_text = lines[1][0:-1]
     # test = lines[0][0:-1]
     # print(PatternOccurAt(input_text,test))
-    filepath='/Users/skyeong/pythonwork/bioinformatics/data/Vibrio_cholerae.txt'
-    with open(filepath) as fp:
-        lines = fp.readlines()
-    print (lines)
-    input_text = lines[0][0:-1]
-    test = 'CTTGATCAT'
-    print(PatternOccurAt(input_text,test))
+  
+    print(PatternOccurAt('GACGATATACGACGATA','ATA'))
